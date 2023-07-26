@@ -1,0 +1,105 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-right: 400px;
+  }
+  
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    display: inline-block;
+    margin-right: 100px;
+  }
+  
+  a {
+    color: #dadada;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #ffffff;
+  }
+  
+  main {
+    padding-left: 120px;
+    padding-right: 20px;
+    color: #ffffff;
+  }
+  
+  /* h2 {
+    margin-left: 20px;
+  } */
+  
+  .work, .about, .home, .contact{
+    /* background-color: #777; */
+    background-image: url(https://media.istockphoto.com/id/1447087371/photo/modern-abstract-dark-gray-background.jpg?b=1&s=612x612&w=0&k=20&c=8nwV1m4UsMdTaCop2JB0cwA7-RRrGCJzpfBPJOXMsDM=);
+  }
+
+  .home main{
+    font-size: 45px;
+    text-shadow: 4px 4px #020202;
+  }
+  .area{
+    height: 100%;
+    font-size: 18px;
+  }
+  .workdiv div{
+    display: inline;
+    padding: 0px 130px 0px 0px
+  }
+  .aboutarea{
+    font-size: 18px;
+    text-shadow: 1px 1px #020202;
+  }
+  input{
+    font-size:15px ;
+    padding: 10px 400px 10px 10px;
+    display: block;
+    margin: 20px 0px;
+
+  }
+  .submit{
+    padding: 10px 20px;
+    color: #ffffff;
+    background-color: #777;
+  }
+  
+  textarea{
+    font-size:15px ;
+    padding: 10px 410px 10px 10px;
+    display: block;
+    margin: 20px 0px;
+    
+  }
+  h1{
+    text-align: center;
+  }
+  .contact-section{
+  font-size: 22px;
+}
+.phone a{
+  color: rgb(253, 253, 253);
+}
+
+img {
+  padding-top: 5px;
+  height: 25px;
+}
