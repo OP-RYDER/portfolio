@@ -1,24 +1,74 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Home</title>
-  <link rel="stylesheet" href="./static/styles.css">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="static/style.css">
+    <link rel="shortcut icon" href="static/l.ico" type="image/x-icon">
 </head>
-<body class="home">
-  <header>
-    <nav>
-      <ul>
-        <li><a href="index.html">1 : Home </a></li>
-        <li><a href="./templates/work.html">2 : Works</a></li>
-        <li><a href="./templates/about.html">3 : About me</a></li>
-        <li><a href="./templates/contact.html">4 : Contact</a></li>
-      </ul>
-    </nav>
-  </header>
-  <main class="home2">
-    <h2>Hello,</h2>
-    <h2>Laxmikant Malashetti <br>
-    Python Fullstack Developer</h2>
-  </main>
+<body>
+    <div class="page1">
+        <div class="nav">
+            <div class="nav-part1">🔴 Laxmikant Malashetti</div>
+            <div class="nav-part2">
+                <div><a href="#">Home</a></div>
+                <div><a href="#workpage"> Work </a></div>
+                <div><a href="#contact-page"> Contact </a></div>
+            </div>
+        </div>
+        <div class="main">
+            <div class="img"><img src="static/page1.png" alt=""></div>
+            <div class="main2">
+                <h1>Hello!</h1>
+                <h3>I'm Laxmikant, a</h3>
+                <h3>Full Stack Developer <img src="static/small img.webp" alt=""></h3>
+                <h3>based in Bengalore.</h3>
+            </div>
+        </div>
+    </div>
+    <hr>
+
+    <div id="workpage" class="page2">
+        <div class="part1">
+            <div class="work1">
+                <h1><img src="static/ball.png"> MSA</h1>
+                <p>Movie search Application</p>
+            </div>
+            <div class="work1-desc">
+                <div>Responsive Website made using HTML, CSS, JS, Python, Flask and By integrating the TMDb API.</div>
+                <div><a href="http://opryder.pythonanywhere.com/" target="_blank">View Project<img src="static/arrow.png"></a></div>
+            </div>
+            
+        </div>
+        <div class="part2"><img src="static/msa.png" alt=""></div>
+    </div>
+    <hr>
+    <div class="page3">
+        <div class="part1">
+            <div class="work1">
+                <h1><img src="static/ball.png"> N</h1>
+                <p>Netflix</p>
+            </div>
+            <div class="work1-desc">
+                <div>Created a Netflix Clone Using HTML and CSS</div>
+                <div><a href="" target="_blank">View Project<img src="static/arrow.png"></a></div>
+            </div>
+            
+        </div>
+        <div class="part2"><img src="static/netflix.jpg" alt=""></div>
+    </div>
+    <hr>
+
+    <div class="contact">
+        <h1><img src="static/Triangle_up.png" alt=""> Contact</h1>
+        <div class="smedia">
+            <a href="https://www.linkedin.com/in/laxmi-kant/" target="_blank">LinkedIn</a>
+            <a href="https://mail.google.com/mail/u/0/#inbox?compose=new" title="vkvscr@gmail.com" target="_blank">Email</a>
+            <a href="https://github.com/OP-RYDER" target="_blank">Git</a>
+            <a href="" id="contact-page" target="_blank">Resume</a>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js" integrity="sha512-Ic9xkERjyZ1xgJ5svx3y0u3xrvfT/uPkV99LBwe68xjy/mGtO+4eURHZBW2xW4SZbFrF1Tf090XqB+EVgXnVjw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="static/script.js"></script>
 </body>
 </html>
